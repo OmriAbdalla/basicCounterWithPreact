@@ -1,5 +1,6 @@
 import { h } from 'preact';
 import { useState } from 'preact/hooks';
+import './style\CounterReducer.css';
 
 function Counter() {
   const [count, setCount] = useState(0);
